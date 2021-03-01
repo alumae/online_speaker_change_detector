@@ -10,4 +10,4 @@ The test directory contains a model trained on Estonian broadcast data.
 
 ## Demo:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/alumae/online_speaker_change_detector/blob/main/tutorials/streaming_demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alumae/online_speaker_change_detector/blob/main/tutorials/streaming_demo.ipynb)
