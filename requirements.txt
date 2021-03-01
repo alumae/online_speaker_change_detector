@@ -1,0 +1,9 @@
+pytorch_lightning >= 1.0,  < 1.1
+torchaudio
+tqdm
+scipy
+numpy
+lxml
+matplotlib
+audiomentations  >=0.13
+librosa

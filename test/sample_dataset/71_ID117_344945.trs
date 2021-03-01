@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Trans SYSTEM "trans-14.dtd">
+<Trans scribe="est-speech2txt" audio_filename="71_ID117_344945" version="2" version_date="200619">
+<Topics>
+<Topic id="to1" desc="kurjategijad internetis"/>
+</Topics>
+<Speakers>
+<Speaker id="spk1" name="Tõnu Tammer" check="no" dialect="native" accent="" scope="local"/>
+<Speaker id="spk2" name="Taavi Libe" check="no" dialect="native" accent="" scope="local"/>
+</Speakers>
+<Episode>
+<Section type="filler" startTime="0.000" endTime="5.88">
+<Turn startTime="0.000" endTime="5.880">
+<Sync time="0.000"/>
+
+</Turn>
+</Section>
+<Section type="report" startTime="5.88" endTime="553.224" topic="to1">
+<Turn speaker="spk2" startTime="5.880" endTime="12.824">
+<Sync time="5.880"/>
+Kell on seitse kolmkümmend seitse, Vikerraadios on külaline Riigi Infosüsteemi Ametist on külla tulnud Tõnu Tammer. Tere hommikust. 
+</Turn>
+<Turn speaker="spk1" startTime="12.824" endTime="13.877">
+<Sync time="12.824"/>
+Tere hommikust.
+</Turn>
+<Turn speaker="spk2" startTime="13.877" endTime="35.160">
+<Sync time="13.877"/>
+Eile ka ERR-i uudisteportaal kirjutas, et kurjategijad aktiivselt on Eesti pankade nimel saatnud libasõnumeid ja ja libakirju, et luua Smart-ID kontot ja ja tegelikult on on selliste teadete arv olnud päris suur. No selgitage natukene alustuseks seda probleemi ja ja kus selle probleemi alguspunkt siis on.
+</Turn>
+<Turn speaker="spk1" startTime="35.160" endTime="109.709">
+<Sync time="35.160"/>
+Tegelikult saab see lugu alguse veebruarikuust, kus me esimest korda panime tähele, et, et kurjategijad saatsid inimestele e-mailiga sõnumit. Kirjas oli, et, et sõnumi on saadab pank ja, ja, ja paluti inimestel sisse logida. 
+<Sync time="52.872"/>
+See leht, mis inimestele siis lingile klikkides avanes, oligi pangalehega natukene sarnane leht, kus küsiti kasutajatunnust ja, ja õige pea saabus inimesele ka palve ennast autentida. Noh, tegelikult ei autentinud inimene vastu kurjategija lehte, vaid vaid autentis kurjategija ennast otse inimese nimega panka.
+<Sync time="74.145"/>
+Ja, ja ja järgnes sellele ka ka paar sellist makset, nii et, et noh, et inimesed ei saanudki aru, et et milliseid toiminguid nad allkirjastasid. Siis oli natuke aega vaikust, kuni aprillikuus selline kampaania jälle pihta hakkas ja, ja kas oli äkki teine kampaania siis, kus kurjategijad natukene, kas õppisid juurde või, või, või, või katsetasid teisi viise, et, et kui varasemalt küsiti otsemakset, siis nüüd küsiti Smarti-ID konto loomist läbi, mille siis on võimalik ise see makse allkirjastada.
+</Turn>
+<Turn speaker="spk2" startTime="109.709" endTime="112.497">
+<Sync time="109.709"/>
+Ehk siis tahavad veel lihtsamaks oma elu teha kokkuvõttes?
+</Turn>
+<Turn speaker="spk1" startTime="112.497" endTime="127.110">
+<Sync time="112.497"/>
+Tahavad natukene jah teha oma oma elu kas, kas lihtsamaks või, või et, et et inimene, kes, kes on potentsiaalselt ohvriks langemas, ei saa aru, et, et et ta tegelikult ongi sellisesse situatsiooni jõudmas.
+</Turn>
+<Turn speaker="spk2" startTime="127.110" endTime="139.750">
+<Sync time="127.110"/>
+No, mis seal salata, ka Eesti Rahvusringhäälingu meiliprogrammi on paaril korral sellised kirjad saabunud. Kuivõrd kuivõrd raske see olukord siis selles mõttes, et, et kas on palju ohvreid olnud.
+</Turn>
+<Turn speaker="spk1" startTime="139.750" endTime="160.437">
+<Sync time="139.750"/>
+Ohvreid tegelikult, kes ühel või teisel viisil ohvriks langenud on, meile teadaolevalt väga palju ei ole, et et et neid kirju ja SMS-e, mida on saadetud, on ikkagi tuhandetes. Aga, aga noh, ohvreid me loeme kokku pigem kümnetes.
+</Turn>
+<Turn speaker="spk2" startTime="160.437" endTime="165.530">
+<Sync time="160.437"/>
+Aga ikkagi, kui sa kaotad oma raha ja kaotavad oma identiteedi, see ei ole kõige parem.
+</Turn>
+<Turn speaker="spk1" startTime="165.530" endTime="203.190">
+<Sync time="165.530"/>
+Kindlasti on see põhjus muretsemiseks, et meile teadaolevalt, et tegelikult inimesed raha kaotanud ei ole, et nad on alati selle raha saanud tagasi.
+<Sync time="175.161"/>
+Aga, aga, aga muretsemiseks on põhjust, sest et, et et kui inimene allkirjastab Mobiil-ID-ga uue Smart-ID loomise. Päris täpselt ei saa aru, et ta ongi andnud kurjategijale Smart-ID koos PIN-koodidega, siis võib kurjategija potentsiaalselt teha selles Smart-ID-ga ka teisi toiminguid, mitte üksnes pangas makset.
+</Turn>
+<Turn speaker="spk2" startTime="203.190" endTime="221.277">
+<Sync time="203.190"/>
+Kas oleks võimalik Smart-ID süsteemi teha, teha veel turvalisemaks või noh, antud hetkel, kui kui olukord on selline, et inimene ikkagi ise sisestas, sisestab need paroolid ja annab no sisuliselt oma koduvõtmed kurjategijate kätte, siis on väga keeruline kuskilt kõrgemalt teda kaitsta.
+</Turn>
+<Turn speaker="spk1" startTime="221.277" endTime="271.890">
+<Sync time="221.277"/>
+Nii ta paraku on, et, et et nii nagu te ei kirjutaks alla valgele paberile, noh, tegelikult peaks inimene ka vaatama, et, et et kuhu ta oma PIN kahe sisestab ja millise toimingu raames ta sedax sisestab. Et, et, et tegelikult ta ju teeb täiesti kehtiv allkirjastamise toimingu.
+<Sync time="242.181"/>
+Mis puudutab nüüd Smart-ID loomist, siis koostöös teenusepakkujaga me oleme juba pakkunud välja ja ka ja ka rakendanud rida muudatusi, mis peaksid tegema Smart-ID loomise paremini inimestele arusaadavaks ja, ja, ja kaalume ka teisi lahendusi. Et et päris nii lihtsalt ei oleks kurjategijatel võimalik enda kätte selline dokument saada.
+</Turn>
+<Turn speaker="spk2" startTime="271.890" endTime="284.330">
+<Sync time="271.890"/>
+Kas ma Teie viimasest vastusest saan aru, et et teil on ka tunne, et et võib-olla, kuidas ma ütlen, siis internetis tehtavad toimingud on justkui sammukese ees inimeste oskustest?
+</Turn>
+<Turn speaker="spk1" startTime="284.330" endTime="323.650">
+<Sync time="284.330"/>
+Ka seda võib aeg-ajalt täheldada, sest et et üldiselt kurjategijate selline käekiri on paljuski läbinähtav. Inimesed peaksid natukene rohkem vaatama ja uurima enne kui nad üht või teist toimingut teevad. Eriti puudutab see, kas kas e-mailiga sisse tulnud kirju, kus, kus natukenegi on kahtlus, SMS, aga on teada ka olukordi, kus kurjategijad saadavad näiteks WhatsApp
+<Event desc="vatsäp" type="pronounce" extent="end"/>
+'iga sõnumi, et täiesti uus liik, mida, mida me veel Eestis näinud ei ole.
+</Turn>
+<Turn speaker="spk2" startTime="323.650" endTime="337.170">
+<Sync time="323.650"/>
+Kui lihtne sellist noh, kuritegelike kampaaniate puhul on võimalik jõuda algallikani, et kus kohast ikkagi on see asi hakanud liikuma ja kes on need tegelased, kes võivad olla sellega seotud?
+</Turn>
+<Turn speaker="spk1" startTime="337.170" endTime="370.970">
+<Sync time="337.170"/>
+Internetis on piire väga raske tõmmata. Eriti, mis puudutab interneti kasutamist. Küll aga menetluse mõttes on riigipiirid alati ees ja, ja, ja eks ta üks selline väljakutse paraku ole, et, et et ka sellega kaasuse osas tegelikult politseil kriminaalmenetlus käib. Aga, aga noh, ma ei tea veel, et, et kedagi oleks kohtu alla antud, nii et, et paraku need asjad võtavad natukene aega.
+</Turn>
+<Turn speaker="spk2" startTime="370.970" endTime="377.650">
+<Sync time="370.970"/>
+Nüüd ma saan aru, et on täitsa võimalik, et see algsisend on tulnud hoopis välismaalt.
+</Turn>
+<Turn speaker="spk1" startTime="377.650" endTime="380.110">
+<Sync time="377.650"/>
+Suure tõenäosusega ta niimoodi on.
+</Turn>
+<Turn speaker="spk2" startTime="380.110" endTime="398.500">
+<Sync time="380.110"/>
+Kui sellised asjad hakkavad levima, nagu ma aru saan, siis praegu ongi, ongi selline trend, et taolised pankade nimel justkui saadetud e-kirjad on hästi levinud, kas, kas nad hakkavad siis levima noh, mitmes riigis või, või lausa suuremas regioonis või, või see on kuidagi ikka niimoodi, et hetkel on Eestis olnud see probleemi ja ainult Eestis?
+</Turn>
+<Turn speaker="spk1" startTime="398.500" endTime="433.430">
+<Sync time="398.500"/>
+Ei, meile teadaolevalt, tegelikult on täpselt sama käekirjaga saanud pihta siis erinevad isikud ka meie lähiringkonnas, et, et et Baltikum, Põhjala, et, et kurjategijad taaskord on, on, on kavalad, et kui ühes kohas läheb natukene liiga palavaks teema, on, on aktuaalne, siis nad kolivad järgmisesse riiki. Meil vaibub teema maha, siis nad tulevad siia tagasi, et et et lainetena ta niimoodi käib.
+</Turn>
+<Turn speaker="spk2" startTime="433.430" endTime="455.603">
+<Sync time="433.430"/>
+No kui tulla tagasi selle juurde, et tõesti ilmselt on päris palju Eestis selliseid inimesi, kes taolisi toiminguid internetis tehes ei tunne ennast mugavaks, siis no kui me filosofeerimine, kas kas võiks soovitada ka mõnele inimesele, et võib-olla ära selliseid tundlikke asju üldse internetis teegi. Kuigi jah, meie riik on õhuke ja läheb aina õhemaks.
+</Turn>
+<Turn speaker="spk1" startTime="455.603" endTime="489.770">
+<Sync time="455.603"/>
+Otseselt seda ma ei kutsuks üles, et, et, et hoidke e-teenuseid kasutamast. Mis on oluline, on see, et, et tegelikult inimesed vaataksid brauseris aadressiribal olevat aadressi ja kui see on ikkagi tavapärasest erinev, siis andma sellest meile teada ja, ja, ja mitte tegema selle lehe vahel vahendusel, siis siis kas parooli sisestamisi või, või, või autentimisi või krediitkaardi sisestamisi, et.
+</Turn>
+<Turn speaker="spk2" startTime="489.770" endTime="493.277">
+<Sync time="489.770"/>
+No selgitage, tooge näide, mida see tähendab, tavapärasest erinev.
+</Turn>
+<Turn speaker="spk1" startTime="493.277" endTime="539.300">
+<Sync time="493.277"/>
+Noh, ütleme, et, et kui, kui tavapäraselt panga koduleht ongi stiilis 
+<Event desc="(URL:) VVV punkt pank punkt EE" type="pronounce" extent="begin"/>
+www.pank.ee
+<Event desc="(URL:) VVV punkt pank punkt EE" type="pronounce" extent="end"/>
+, siis kurjategijate aadressid on kõike muud kui sellises sellises formaadis, et et kui, kui see brauseri aadressiribal kuvatud aadress ei ole see, mis on ta tavapäraselt noh, siis siis selle lehega tegelikult tasuks kindlasti mitte tegemist teha. Reeglina tulevad sellised lingid sellistele lehtedele inimestele ikkagi e-posti vahendusel või, või sõnumitega, kui inimene ise nende otsa internetis komistab.
+</Turn>
+<Turn speaker="spk2" startTime="539.300" endTime="544.120">
+<Sync time="539.300"/>
+Et, nagu me ennegi rääkisime, kui mikrofon lahti läks, et kuidas see oli. Üheksa korda mõtle, siis kliki, või?
+</Turn>
+<Turn speaker="spk1" startTime="544.120" endTime="550.850">
+<Sync time="544.120"/>
+Üheksa korda mõtle, üks kord kliki, et, et täpselt nii nagu talupojamõistus üheksa korda mõõda, üks kord lõika.
+</Turn>
+<Turn speaker="spk2" startTime="550.850" endTime="552.860">
+<Sync time="550.850"/>
+Tõnu Tammer, suur aitäh selle intervjuu eest.
+</Turn>
+<Turn startTime="552.860" endTime="553.224" speaker="spk1">
+<Sync time="552.860"/>
+Aitäh.
+</Turn>
+</Section>
+</Episode>
+</Trans>
