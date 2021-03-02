@@ -74,7 +74,7 @@ class TestModel(unittest.TestCase):
         output_enc_padded = model._encode_features(mel_spec, mel_spec_length)
         
         logits = model._decode(output_enc_padded,  (mel_spec_length - model.encoder_fov) // model.hparams.detection_period)
-        nonstreaming_breaks = logits.squeeze().argmax(1).nonzero(as_tuple=True)[0]
+        nonstreaming_breaks = logits.log_softmax(dim=-1).squeeze().argmax(1).nonzero(as_tuple=True)[0]
 
         streaming_model = StreamingDecoder(model)
         streaming_outputs = []

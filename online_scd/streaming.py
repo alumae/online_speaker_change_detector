@@ -87,17 +87,17 @@ class StreamingDecoder:
                 x = torch.from_numpy(x).permute(1, 0).unsqueeze(0).float()
                 x = self.model.encode_windowed_features(x)
                 y, self.hidden_state = self.model.decode_single_timestep(x, self.hidden_state)                
-
+                probs = y.log_softmax(dim=-1).exp()
                 if self.discard_counter < (self.model.hparams.label_delay - self.model.encoder_fov//2) // self.model.hparams.detection_period:
                     # we discard output for the 1st second (or whatever the label delay is)
                     self.discard_counter += 1
                 else:
-                    yield y.squeeze()
+                    yield probs.squeeze()
 
     def find_speaker_change_times(self, audio, threshold=0.5):        
         for y in self.process_audio(audio):
 
-            if y.exp()[1] > threshold:
+            if y[1] > threshold:
                 change_time = self.frame_counter / 100
                 if change_time > 0:
                     yield change_time
