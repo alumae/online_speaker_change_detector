@@ -82,7 +82,8 @@ class TestModel(unittest.TestCase):
             for output in streaming_model.process_audio(audio[i: i+1000]):
                 streaming_outputs.append(output)
         
-        streaming_breaks = torch.stack(streaming_outputs).squeeze().argmax(1).nonzero(as_tuple=True)[0]    
+        streaming_breaks = torch.stack(streaming_outputs).squeeze().argmax(1).nonzero(as_tuple=True)[0] \
+            + (model.hparams.label_delay - model.encoder_fov//2) // model.hparams.detection_period
         # Assert that the overlap between streaming and non-streaming is more than 90%
         print("Breaks from non-streaming decoding:", nonstreaming_breaks)
         print("Breaks from streaming decoding:", streaming_breaks)
@@ -90,7 +91,7 @@ class TestModel(unittest.TestCase):
         self.assertTrue(len(np.intersect1d(nonstreaming_breaks.numpy(), streaming_breaks.numpy())) / len(nonstreaming_breaks) > 0.9)
         
 
-    def __test_streaming_with_times(self):
+    def test_streaming_with_times(self):
         model = SCDModel.load_from_checkpoint("test/sample_model/checkpoints/epoch=102.ckpt")
         
         transcription = Transcritpion("test/sample_dataset/71_ID117_344945.wav", "test/sample_dataset/71_ID117_344945.trs")
