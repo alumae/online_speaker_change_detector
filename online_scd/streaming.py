@@ -78,19 +78,17 @@ class StreamingDecoder:
         self.audio2mel = AudioStream2MelSpectrogram(16000, model.hparams.num_fbanks)
         self.mels_to_conv_input = InputFrameGenerator(model.encoder_fov, model.hparams.detection_period)
         self.hidden_state = None
-        self.frame_counter = 0
-        self.starting_buffer = [torch.tensor([1.0, 0.0])] * (model.encoder_fov // model.hparams.detection_period - 2) 
+        # we won't output anything for the first model.encoder_fov // 2  frames due to no padding
+        self.frame_counter = model.encoder_fov // 2 
+        
 
     def process_audio(self, audio):        
         for feature in self.audio2mel.process_audio(audio):            
             for x in self.mels_to_conv_input.frames(feature.reshape(1, self.model.hparams.num_fbanks)):
+
                 x = torch.from_numpy(x).permute(1, 0).unsqueeze(0).float()
                 x = self.model.encode_windowed_features(x)
-                y, self.hidden_state = self.model.decode_single_timestep(x, self.hidden_state)
-                # first yield the pseudo-states for the frames that were skipped due to no padding
-                if len(self.starting_buffer) > 0:
-                    yield self.starting_buffer.pop()
-
+                y, self.hidden_state = self.model.decode_single_timestep(x, self.hidden_state)                
                 yield y.squeeze()
 
     def find_speaker_change_times(self, audio, threshold=0.5):        
