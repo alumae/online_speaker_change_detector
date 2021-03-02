@@ -4,7 +4,13 @@ This repository contains an implementation of an online streaming speaker change
 It is implemented in Pytorch.
 
 The model consists of several 1-D convolutional layers acting as speech encoder,
-a multi-layer LSTM that model speaker change, and a final softmax layer.
+a multi-layer LSTM that models speaker change, and a final softmax layer.
+
+The model is trained using a special version of cross-entropy
+training which tolerates small errors in the hypthesized speaker change timestamps.
+Due to this, the softmax outputs of the trained model are very peaky and do not require
+any local maxima tracking for extracting the final speaker turn points. This
+makes the model suitable for online appications.
 
 The test directory contains a model trained on Estonian broadcast data.
 
