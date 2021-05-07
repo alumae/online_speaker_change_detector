@@ -2,7 +2,6 @@ import torch
 
 import functools
 import numpy as np
-from asyncio import Queue
 import librosa
 
 import online_scd.data as data
@@ -54,7 +53,6 @@ class AudioStream2MelSpectrogram:
         self.sample_rate = sample_rate
         self.num_fbanks = num_fbanks
         self.input_frame_generator = InputFrameGenerator(400, 160)
-        self.result_queue = Queue()
         self.cmn = StreamingSlidingWindowCmn(num_fbanks, cmn_window)
 
     def process_audio(self, audio):
